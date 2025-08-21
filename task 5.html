@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+<head>
+
+<style>
+body{
+display:grid;
+justify-content:center;
+}
+
+div.main{
+height:500px;
+width:500px;
+border:1px solid yellow;
+background-color:yellow;
+position:relative;
+border-radius:50%;
+}
+
+div#one{
+height:50px;
+width:50px;
+border:2px solid black;
+background-color:white;
+position:absolute;
+top:90px;
+left:100px;
+border-radius:50%;
+transition:all 1s;
+}
+
+#one:hover{
+transform:scale(1.3);
+}
+
+div#two{
+height:50px;
+width:50px;
+border:2px solid black;
+background-color:white;
+position:absolute;
+top:90px;
+right:100px;
+border-radius:50%;
+transition:all 1s;
+}
+
+#two:hover{
+transform:scale(1.3);
+}
+
+div#three{
+height:50px;
+width:50px;
+border:2px solid black;
+background-color:red;
+position:absolute;
+bottom:220px;
+left:220px;
+border-radius:10px 50px 80px;
+transform:rotate(45deg);
+}
+
+
+div#four{
+height:50px;
+width:300px;
+border:2px solid black;
+background-color:white;
+position:absolute;
+bottom:100px;
+right:100px;
+border-radius:0px 0px 200px 200px ;
+}
+
+</style>
+
+<title>Moon</title>
+</head>
+<body>
+
+<div class="main">
+<div id="one"></div>
+<div id="two"></div>
+<div id="three"></div>
+<div id="four"></div>
+</div>
+
+</body>
+</html>
